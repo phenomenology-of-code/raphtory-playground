@@ -1,7 +1,10 @@
 [project]
-name = "raphtory"
+name = "raphtory-playground"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandas>=2.2.3",
+    "raphtory>=0.14.0",
+]
